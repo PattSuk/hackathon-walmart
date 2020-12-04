@@ -107,7 +107,7 @@ class RecipeDetails extends Component {
                 </div>
             </div>
                 <div>
-                    <img src={reviews} alt="reviews panel"/>
+                    <img className="recipe-details__reviews" src={reviews} alt="reviews panel"/>
                 </div>
             </div>
         );
