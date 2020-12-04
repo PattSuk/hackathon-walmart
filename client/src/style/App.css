@@ -1,1 +1,19 @@
-/* No CSS *//*# sourceMappingURL=App.css.map */
+@use './partials/typography' as *;
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+/*# sourceMappingURL=App.css.map */
