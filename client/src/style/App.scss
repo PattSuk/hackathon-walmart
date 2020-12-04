@@ -1,6 +1,6 @@
 @import "./partials/variables";
 @import "./partials/mixin";
-@use './partials/typography' as *;
+@import "./partials/typography";
 
 html {
   box-sizing: border-box;
