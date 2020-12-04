@@ -2,7 +2,7 @@
 @import "../../style/partials/mixin";
 
 .recipe-details {
-    padding: 0 3.125rem;
+    padding: 0 3.125rem 3.125rem;
 
     &__logo {
         margin-bottom: 2rem;
@@ -24,10 +24,6 @@
         height: 31.125rem;
         margin-right: 13.3125rem;
     }
-
-    // &__recipe-description {
-
-    // }
 
     &__recipe-title {
         font-size: 1.4375rem;
