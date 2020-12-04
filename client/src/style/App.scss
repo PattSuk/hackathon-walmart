@@ -1,4 +1,6 @@
-@use './partials/typography' as *;
+@import "./partials/variables";
+@import "./partials/mixin";
+@import "./partials/typography";
 
 html {
   box-sizing: border-box;
