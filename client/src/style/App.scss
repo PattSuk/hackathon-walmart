@@ -1,6 +1,9 @@
 @import "./partials/variables";
 @import "./partials/mixin";
 @import "./partials/typography";
+@import "./partials/header";
+@import "./partials/home";
+@import "./partials/footer";
 
 html {
   box-sizing: border-box;
@@ -16,4 +19,9 @@ body {
   font-family: "Roboto", sans-serif;
   padding: 0;
   margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: $primary-colour;
 }

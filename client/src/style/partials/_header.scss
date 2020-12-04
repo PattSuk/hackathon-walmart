@@ -1,0 +1,62 @@
+.header {
+  &__covid {
+    margin: 0 50px;
+    background-color: $primary-colour;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $background-colour;
+    margin-bottom: 14px;
+
+    &--text {
+      margin: 0;
+    }
+  }
+
+  &__middle-bar {
+    padding: 0 50px;
+    padding-right: 125px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+
+    &--slogan {
+      padding-left: 9.57px;
+      margin-top: -7px;
+    }
+  }
+
+  &__nav {
+    margin-top: 17px;
+    margin-bottom: 18px;
+    padding: 0 50px;
+    padding-right: 125px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid $primary-colour;
+
+    &--left {
+      display: flex;
+      justify-content: space-between;
+      width: 69%;
+      align-items: center;
+    }
+
+    &--right {
+      display: flex;
+      justify-content: space-between;
+      width: 30%;
+      margin-left: 100px;
+      align-items: center;
+
+      a:nth-child(1) {
+        color: $button-colour;
+      }
+    }
+  }
+}
