@@ -86,6 +86,7 @@
         height: 42px;
         border: none;
         border-radius: 50%;
+        cursor: pointer;
 
         &--less {
             font-size: 3.125rem;
@@ -94,6 +95,7 @@
         }
 
         &--cart {
+            color:white;
             width: 11rem;
             border-radius: 26px;
             font-size: 1rem;
@@ -150,8 +152,13 @@
     &__reviews {
         width: 100%;
     } 
+
+    &a:any-link{
+        color:initial;
+    }
 }
 
 span {
     text-decoration: underline;
 }
+

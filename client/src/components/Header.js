@@ -15,11 +15,11 @@ function Header () {
             </div>
             <div className="header__middle-bar">
                 <div className="header__logo">
-                    <img src={walmart_logo} alt="walmart logo" />
+                    <Link to="/"><img src={walmart_logo} alt="walmart logo" /></Link>
                     <img className="header__logo--slogan" src={slogan} alt="walmart slogan" />
                 </div>
                 <img src={search_bar} alt="search bar" />
-                <img src={cart_icon} alt="cart icon" />
+                <Link to="/checkout"><img src={cart_icon} alt="cart icon" /></Link>
             </div>
             <nav  className="header__nav">
                 <div className="header__nav--left">

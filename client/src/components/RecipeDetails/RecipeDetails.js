@@ -1,5 +1,6 @@
 import './RecipeDetails.scss';
 import { Component } from 'react';
+import { Link } from 'react-router-dom';
 import NavText from '../NavText/NavText';
 import {ReactComponent as Chefbox} from '../../assets/logo/walmart-chef-box.svg';
 import starRating from '../../assets/icons/star-rating.png';
@@ -74,7 +75,7 @@ class RecipeDetails extends Component {
                             <h1 className="recipe-details__serving-qty">{this.state.servings}</h1>
                             <button className="recipe-details__btn" onClick={this.handleAdd}>+</button>
                         </div>
-                        <button className="recipe-details__btn recipe-details__btn--cart">Add to cart</button>
+                        <Link to="/checkout" ><button className="recipe-details__btn recipe-details__btn--cart">Add to cart</button></Link>
                     </div>
                 </div>
             <div className="recipe-details__instructions">
