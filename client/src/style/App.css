@@ -30,6 +30,100 @@
   font-display: swap;
 }
 
+.header__covid {
+  margin: 0 50px;
+  background-color: #0072ce;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+  margin-bottom: 14px;
+}
+
+.header__covid--text {
+  margin: 0;
+}
+
+.header__middle-bar {
+  padding: 0 50px;
+  padding-right: 125px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.header__logo--slogan {
+  padding-left: 9.57px;
+  margin-top: -7px;
+}
+
+.header__nav {
+  margin-top: 17px;
+  margin-bottom: 18px;
+  padding: 0 50px;
+  padding-right: 125px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 2px solid #0072ce;
+}
+
+.header__nav--left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 69%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__nav--right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 30%;
+  margin-left: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__nav--right a:nth-child(1) {
+  color: #507b22;
+}
+
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -46,5 +140,10 @@ body {
   font-family: "Roboto", sans-serif;
   padding: 0;
   margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #0072ce;
 }
 /*# sourceMappingURL=App.css.map */
