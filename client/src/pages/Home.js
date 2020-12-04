@@ -12,7 +12,7 @@ function Home () {
             <div className="hero">
                 <img src={delivery_bar} alt="delivery detail" />
                 <img className="hero__discount" src={discount} alt="discount bar" />
-                <Link className="hero__chef-box" to="/spinach-quesadillas"><img src={chef_box} alt="Chef box hero" /></Link>
+                <Link to="/recipe" className="hero__chef-box"><img src={chef_box} alt="Chef box hero" /></Link>
                 <img src={circles} alt="circles" />
                 <img className="hero__advertise" src="./images/advertise.svg" alt="advertise" />
                 <img src="./images/body.svg" alt="body" />
