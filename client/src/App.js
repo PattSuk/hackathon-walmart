@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Home from './pages/Home';
 import Footer from './components/Footer';
 import SpinachQuesadillas from './pages/SpinachQuesadillas';
+import Checkout from './pages/Checkout';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/spinach-quesadillas" component={SpinachQuesadillas} />
+        <Route path="/checkout" component={Checkout} />
       </Switch>
       <Footer />
     </BrowserRouter>

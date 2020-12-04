@@ -1,0 +1,131 @@
+.checkout {
+  &__credit-card {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 16px;
+    margin: 0 50px;
+    border-bottom: 1px solid $lines;
+    margin-bottom: 8px;
+
+    p {
+      font-size: 15px;
+    }
+  }
+
+  &__card {
+    margin-right: 28px;
+  }
+
+  &__box {
+    margin: 0 50px;
+    display: flex;
+    padding-bottom: 15px;
+    border-bottom: 1px solid $lines;
+    margin-bottom: 40px;
+  }
+
+  &__left-box {
+    width: 74%;
+    border-right: 1px solid $lines;
+    padding-right: 16px;
+
+    h1 {
+      font-size: 23px;
+      font-weight: bold;
+      margin-bottom: 24px;
+    }
+  }
+
+  &__page-name {
+    margin-top: 22px;
+    color: $button-colour;
+    margin-bottom: 57px;
+  }
+
+  &__cart-box {
+    display: flex;
+    margin-top: 30px;
+  }
+
+  &__food {
+    margin-right: 130px;
+  }
+
+  &__cart-title {
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+
+  &__gift {
+    margin-right: 4px;
+  }
+
+  &__serving {
+    display: flex;
+
+    &--size {
+      margin-left: 44px;
+      margin-right: 39px;
+    }
+  }
+
+  &__remove {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__right-box {
+    padding-top: 133px;
+    padding-left: 21px;
+    padding-right: 15px;
+    width: 26%;
+  }
+
+  &__calculate {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__right-top {
+    padding-bottom: 51px;
+    border-bottom: 1px solid $lines;
+    margin-bottom: 30px;
+  }
+
+  &__right-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__btm {
+    margin: 0 50px;
+  }
+
+  &__saved {
+    font-size: 23px;
+    font-weight: normal;
+
+    &-text {
+      color: #6d6e71;
+      margin-bottom: 69px;
+    }
+  }
+
+  &__img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 63px;
+  }
+}
+
+.checkout-btn {
+  border-radius: 26px;
+  padding: 11px 51px;
+  background-color: $button-colour;
+  color: $background-colour;
+  width: 176px;
+  margin-top: 91px;
+}
