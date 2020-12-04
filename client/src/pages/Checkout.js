@@ -5,7 +5,7 @@ import plus from '../assets/icons/+button.svg';
 import minus from '../assets/icons/-Button.svg';
 import chef_box from '../assets/logo/chef-box.svg';
 
-function Checkout () {
+const Checkout = (props) =>{
     return (
         <div className="checkout">
             <div className="checkout__credit-card">
@@ -18,13 +18,13 @@ function Checkout () {
                     <h1>Your cart: 1 item</h1>
                     <img src={chef_box} alt="chef box logo" />
                     <div className="checkout__cart-box">
-                        <img className="checkout__food" src="./images/food.svg" />
+                        <img className="checkout__food" src="./images/food.svg" alt=""/>
                         <div className="checkout__cart-detail">
                             <p className="checkout__cart-title">Walmart Chef Box - Spinach Quesadilla</p>
-                            <p><img className="checkout__gift" src={gift} />Gift eligible</p>
+                            <p><img className="checkout__gift" src={gift} alt=""/>Gift eligible</p>
                             <div className="checkout__serving">
                                 <img src={minus} alt="decrease" />
-                                <h2 className="checkout__serving--size">2</h2>
+                                <h2 className="checkout__serving--size">4</h2>
                                 <img src={plus} alt="increase" />
                             </div>
                         </div>
@@ -34,8 +34,8 @@ function Checkout () {
                 <div className="checkout__right-box">
                     <div className="checkout__right-top">
                         <div className="checkout__calculate">
-                            <p>Subtotal &#40; 2 item &#41;</p>
-                            <p>$50.00</p>
+                            <p>Subtotal &#40; 2 items &#41;</p>
+                            <p>$25.00</p>
                         </div>
                         <div className="checkout__calculate">
                             <p>Delivery</p>
@@ -49,7 +49,7 @@ function Checkout () {
                     <div className="checkout__right-bottom">
                         <div className="checkout__calculate">
                             <p>Estimated Total</p>
-                            <p>$50.00</p>
+                            <p>$25.00</p>
                         </div>
                         <Link to="/" className="checkout-btn">Check Out</Link>
                     </div>

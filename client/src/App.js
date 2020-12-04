@@ -3,7 +3,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Home from './pages/Home';
 import Footer from './components/Footer';
-import SpinachQuesadillas from './pages/SpinachQuesadillas';
+import Recipe from './pages/Recipe';
 import Checkout from './pages/Checkout';
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
       <Header />
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/spinach-quesadillas" component={SpinachQuesadillas} />
+        <Route path="/recipe" component={Recipe} />
         <Route path="/checkout" component={Checkout} />
       </Switch>
       <Footer />

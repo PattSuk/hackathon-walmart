@@ -24,19 +24,19 @@ function Header () {
             <nav  className="header__nav">
                 <div className="header__nav--left">
                     <img src={department_icon} alt="department icon" />
-                    <Link>Deals</Link>
-                    <Link>Toys</Link>
-                    <Link>HoLinkday</Link>
-                    <Link>Gift Cards</Link>
-                    <Link>Clothing</Link>
-                    <Link>Electronics</Link>
-                    <Link>Health</Link>
+                    <Link to="#">Deals</Link>
+                    <Link to="#">Toys</Link>
+                    <Link to="#">HoLinkday</Link>
+                    <Link to="#">Gift Cards</Link>
+                    <Link to="#">Clothing</Link>
+                    <Link to="#">Electronics</Link>
+                    <Link to="#">Health</Link>
                 </div>
                 <div className="header__nav--right">
-                    <Link>Shop grocery</Link>
-                    <Link>Store finder</Link>
-                    <Link>Flyers</Link>
-                    <Link>Sign in</Link>
+                    <Link to="#">Shop grocery</Link>
+                    <Link to="#">Store finder</Link>
+                    <Link to="#">Flyers</Link>
+                    <Link to="#">Sign in</Link>
                 </div>
             </nav>
         </header>
